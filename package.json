@@ -1,0 +1,25 @@
+{
+    "name":"caraacara",
+    "title":"Marionette and Require Boilerplate",
+    "description":"A Marionette.js and Require.js app.",
+    "version":"0.0.1",
+    "homepage":"https://github.com/BoilerplateMVC/Marionette-Require-Boilerplate",
+    "scripts": {
+        "build": "grunt",
+        "dev": "PORT=3000 http-serve .",
+        "start": "http-serve ."
+    },
+    "dependencies": {
+        "express":"3.x"
+    },
+    "devDependencies":{
+        "express":"3.x",
+        "grunt":"~0.4.1",
+        "grunt-contrib-requirejs":"~0.4.0",
+        "grunt-contrib-jshint":"~0.3.0",
+        "uglify-js":"~2.2.5",
+        "grunt-cli": "1.4.3",
+        "http-serve": "1.0.1"
+    },
+    "keywords":["Marionette.js", "Backbone.js", "Require.js", "Game"]
+}
